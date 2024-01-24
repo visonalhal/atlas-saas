@@ -7,7 +7,7 @@
     "build": "tsc && vite build",
     "dev": "vite",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "pretty": "prettier --config ./.prettierrc.cjs --write '**/*.@(js|ts|jsx|tsx|cjs|json|css|scss|yml)'",
+    "pretty": "prettier --config ./.prettierrc.cjs --write \"**/*.@(js|ts|jsx|tsx|cjs|json|css|scss|yml)\"",
     "prepare": "husky install",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
